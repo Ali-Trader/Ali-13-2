@@ -1,0 +1,16 @@
+body{
+
+}
+section{
+    background-color: rgb(172, 216, 230);
+}
+span{
+    color: red;
+}
+input{
+    border: none;
+    border-radius: 100px;
+    background:linear-gradient(to right , green , blue);
+    width: 30%;
+    
+}

@@ -1,0 +1,44 @@
+
+.div1 , .div2 , .div3{
+width: 30%;
+height: 100%;
+display: inline-block;
+padding: 0 5px 0 5px;
+
+}
+img{
+    width:100% ;
+    object-fit: cover;
+    margin: 10PX 0 10PX 0;
+    border-radius: 10PX;
+}
+.div2 .image6{
+    border-radius: 100%;
+    box-shadow: 10px 10px rgba(0, 0, 0, 0.205);
+    text-align: center;
+}
+.GalleryBox{
+    width: 600px;
+    height: 100%;
+    background-color: rosybrown;
+    margin: 190px;
+    margin-left: 350px;
+}
+.divp{
+    background-color: blueviolet;
+    display: inline-block;
+    width: 20%;
+border-radius: 10px;
+text-align: justify;
+padding: 5px;
+}
+
+.divp1{
+text-align: end;
+
+
+}
+.divp2{
+    text-align: right
+    ;
+}

@@ -1,0 +1,62 @@
+.registerSection {
+  border: 1px solid black;
+  border-radius: 10px;
+  padding: 20px;
+  text-align: justify;
+  display: inline-block;
+}
+
+input {
+  border-radius: 100px;
+  background: linear-gradient(to right, #ff8a00, #dbff00);
+  border: none;
+  height: 30px;
+  width: 90%;
+}
+.registerSection h1 {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 30px;
+  background: linear-gradient(to right, #faff00, #00e0ff);
+  display: inline-block;
+  background-clip: text;
+  color: transparent;
+}
+span {
+  color: red;
+}
+.formSection .halfInput {
+  width: 45%;
+  display: inline-block;
+  text-align: justify;
+}
+
+.formSection {
+  text-align: center;
+}
+.helfInput {
+  display: inline-block;
+}
+.formSection .main {
+  width: 90%;
+  display: inline-block;
+  text-align: justify;
+  margin-top: 10px;
+}
+.formSection .checkbox {
+text-align: left;
+  display: inline-block;
+  text-align: justify;
+}
+.checkbox label {
+ 
+  font-size: 10px;
+}
+.checkbox input {
+  vertical-align: super;
+}
+button {
+  width: 50%;
+  height: 30px;
+  border-radius: 100px;
+  background-color: #ff8a00;
+}
