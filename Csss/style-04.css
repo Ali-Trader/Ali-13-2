@@ -1,16 +1,28 @@
-body{
-
+body {
+  /* display: inline-block; */
 }
-section{
-    background-color: rgb(172, 216, 230);
+.section{
+  display: inline-block;
+  background-color: rgb(172, 216, 230);
+  width: 400px;
+    text-align: justify;
+  padding-left: 20px;
+  border: 1px solid black;
+  border-radius: 20px;
 }
-span{
-    color: red;
+span {
+  color: red;
 }
-input{
-    border: none;
-    border-radius: 100px;
-    background:linear-gradient(to right , green , blue);
-    width: 30%;
+input {
+  border: none;
+  border-radius: 100px;
+  width: 90%;
+  background: linear-gradient(to right, #ff8a00, #dbff00);
+}
+div .name {
+  display: inline-block;
+}
+.name input{
+    width: 40%;
     
 }
