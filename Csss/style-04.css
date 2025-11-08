@@ -1,28 +1,25 @@
-body {
-  /* display: inline-block; */
+ul {
+  list-style: none;
+  padding: 0;
+  word-spacing: -4px;
 }
-.section{
-  display: inline-block;
-  background-color: rgb(172, 216, 230);
-  width: 400px;
-    text-align: justify;
-  padding-left: 20px;
-  border: 1px solid black;
-  border-radius: 20px;
+.ListSection {
+  background-color: aqua;
 }
-span {
-  color: red;
+.ListItemBase {
+  background-color: aquamarine;
+  margin-top: 5px;
+  border: 1px solid;
+  height: 70px;
 }
-input {
-  border: none;
-  border-radius: 100px;
-  width: 90%;
-  background: linear-gradient(to right, #ff8a00, #dbff00);
+.InternalList {
+  height: 100%;
 }
-div .name {
+.InternalList .ListItemInternal {
+  width: 25%;
+  height: 100%;
   display: inline-block;
 }
-.name input{
-    width: 40%;
-    
+.boxshadow {
+  box-shadow: 10px 0 15px gray;
 }
