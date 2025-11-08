@@ -3,11 +3,7 @@ ul {
   padding: 0;
   word-spacing: -4px;
 }
-.ListSection {
-  background-color: aqua;
-}
 .ListItemBase {
-  background-color: aquamarine;
   margin-top: 5px;
   border: 1px solid;
   height: 70px;
@@ -19,7 +15,18 @@ ul {
   width: 25%;
   height: 100%;
   display: inline-block;
+  background-color: rgba(0, 0, 255, 0.288);
+  vertical-align: middle;
 }
 .boxshadow {
   box-shadow: 10px 0 15px gray;
+}
+.ListItemInternal input {
+  background-color: orange;
+  border: none;
+  border-radius: 20px;
+  width: 135px;
+  height: 40px;
+  margin: auto;
+  color: snow;
 }
