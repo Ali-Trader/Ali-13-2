@@ -1,0 +1,13 @@
+@font-face {
+  src: url(/Fonts/Font\ Farsi/vazir);
+}
+body {
+  font-family: "vazir";
+}
+
+/* rest styles */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
