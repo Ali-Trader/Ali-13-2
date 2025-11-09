@@ -3,6 +3,8 @@
 }
 body {
   font-family: "vazir";
+  width: 100vh;
+  display: flex;
 }
 
 /* rest styles */
@@ -10,4 +12,14 @@ body {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+}
+.header {
+  background-color: rgb(175, 175, 223);
+  width: 100vh;
+  display: flex;
+  justify-content: center;
+}
+.logo img {
+  width: 100px;
+  border-radius: 100%;
 }
