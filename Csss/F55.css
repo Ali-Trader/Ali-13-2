@@ -4,6 +4,7 @@
 body {
   font-family: "vazir";
   width: 100vh;
+  background-color: rgba(255, 0, 0, 0.493);
   display: flex;
 }
 
@@ -13,7 +14,8 @@ body {
   padding: 0;
   box-sizing: border-box;
 }
-.header {
+.header,
+.footer {
   background-color: rgb(175, 175, 223);
   width: 100vh;
   display: flex;
@@ -23,12 +25,21 @@ body {
   width: 100px;
   border-radius: 100%;
 }
-.main .box{
+.main {
+  height: 100vh;
+}
+.main .containerMain{
+  display: flex;
+}
+.main .box {
   background-color: rgba(255, 255, 0, 0.39);
   width: 33%;
-
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
-.main .titr{
+.main .titr {
   display: flex;
   justify-content: center;
 }
