@@ -14,13 +14,11 @@ body {
   padding: 0;
   box-sizing: border-box;
 }
-.header .menu{
-
+.header .menu {
 }
-.header{
-
+.header {
 }
-.section{
+.section {
   display: flex;
   flex-direction: column;
   justify-content: center;
