@@ -38,6 +38,18 @@ tr:active {
   transform: scale(3);
   filter: drop-shadow(0 0 3px black);
 }
+.background_blur_black {
+  background-color: black;
+  backdrop-filter: blur(2px);
+}
+.close_btn {
+  width: 2rem;
+  height: 2rem;
+  font-size: 1.2rem;
+  border: 2px solid red;
+  border-radius: 100%;
+  background-color: black;
+}
 .bg_green {
   background-color: green;
 }
