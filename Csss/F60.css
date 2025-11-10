@@ -20,10 +20,67 @@ td {
 tr {
   background-color: aqua;
 }
-tr{
-    background-color: rgba(123, 89, 216, 0.568);
+tr {
+  background-color: rgba(123, 89, 216, 0.568);
 }
-th{
-    background-color: yellowgreen;
-    color: snow
+th {
+  background-color: yellowgreen;
+  color: snow;
+}
+tr:hover {
+  background-color: red;
+}
+tr:active {
+  background-color: snow;
+  box-shadow: 0 0 16px inset;
+}
+.scale_3:hover {
+  transform: scale(3);
+  filter: drop-shadow(0 0 3px black);
+}
+.bg_green {
+  background-color: green;
+}
+.height_2 {
+  height: 2rem;
+}
+.w_50 {
+  width: 50%;
+}
+.w_100 {
+  width: 100%;
+}
+.h_100 {
+  height: 100%;
+}
+.p_2 {
+  padding: 2rem;
+}
+.m_2 {
+  margin: 2rem;
+}
+.p_absolute {
+  position: absolute;
+}
+.p_relative {
+  position: relative;
+}
+.p_sticky {
+  position: sticky;
+  top: 0;
+}
+.top_0 {
+  top: 0;
+}
+.left_0 {
+  left: 0;
+}
+.d_flex {
+  display: flex;
+}
+.align_items_center {
+  align-items: center;
+}
+.justify_content_center {
+  justify-content: center;
 }
