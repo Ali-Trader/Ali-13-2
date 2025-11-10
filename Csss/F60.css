@@ -1,19 +1,29 @@
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    transition: all 1s;
-
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  transition: all 1s;
 }
-table{
-    width: 100%;
-border-collapse: separate;
+table {
+  width: 100%;
+  border-collapse: separate;
+  border-spacing: 10px;
 }
-tr , th , td{
-border: 1px solid black;
-border-radius: 5px;
-padding: 5px;
+tr,
+th,
+td {
+  border: 1px solid black;
+  border-radius: 5px;
+  padding: 8px;
+  text-align: center;
+}
+tr {
+  background-color: aqua;
 }
 tr{
-    background-color: aqua;
+    background-color: rgba(123, 89, 216, 0.568);
+}
+th{
+    background-color: yellowgreen;
+    color: snow
 }
