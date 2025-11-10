@@ -15,8 +15,14 @@ body {
   box-sizing: border-box;
 }
 .header .menu {
+  background-color: green;
+  gap: 20px;
 }
 .header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 20px;
 }
 .section {
   display: flex;
@@ -26,6 +32,7 @@ body {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  transition: all 2s;
 }
 .header,
 .footer {
@@ -55,10 +62,31 @@ body {
   flex-direction: column;
   align-items: center;
   box-sizing: border-box;
+  transition: all 2s;
 }
 .main .titr {
   display: flex;
   justify-content: center;
   margin-top: 30px;
   margin-bottom: 30px;
+  transition: all 1s;
+}
+.menu:hover {
+  color: yellow;
+}
+.titr:hover {
+  color: yellow;
+  transform: rotate(40deg);
+}
+.main .box:hover {
+  background-color: blue;
+  transform: scale(1.3);
+}
+.box2{
+  position: relative;
+  top: 50px;
+}
+.titr{
+  position:;
+ top: 20;
 }
