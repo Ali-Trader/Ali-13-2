@@ -7,47 +7,70 @@
     <link rel="stylesheet" href="/Csss/F60.css" />
   </head>
   <body>
-    <table dir="rtl">
-      <thead>
-        <tr>
-          <th>نام محصول</th>
-          <th>قیمت</th>
-          <th>تصویر</th>
-          <th>تعداد</th>
-        </tr>
-      </thead>
-      <tbody>
-        <tr>
-          <td>مانیتور 1</td>
-          <td>15.000.000 تومان</td>
-          <td>3</td>
-          <td>20</td>
-        </tr>
-        <tr>
-          <td>مانیتور 2</td>
-          <td>8.000.000 تومان</td>
-          <td>3</td>
-          <td>10</td>
-        </tr>
-        <tr>
-          <td>مانیتور 3</td>
-          <td>8.000.000 تومان</td>
-          <td>3</td>
-          <td>20</td>
-        </tr>
-        <tr>
-          <td>مانیتور 4</td>
-          <td>15.000.000 تومان</td>
-          <td>3</td>
-          <td>10</td>
-        </tr>
-      </tbody>
-      <tfoot>
-        <tr>
-          <td colspan="3">جمع کل</td>
-          <td>1</td>
-        </tr>
-      </tfoot>
-    </table>
+    <section class="app-container">
+      <main class="p_relative main-content">
+        <table dir="rtl">
+          <thead class="p_sticky">
+            <tr>
+              <th>نام محصول</th>
+              <th>قیمت</th>
+              <th>تصویر</th>
+              <th>تعداد</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr class="border-1 mt_1">
+              <td>مانیتور 1</td>
+              <td>15.000.000 تومان</td>
+              <td>
+                <a href="#product1">
+                  <img
+                    class="height_2 scale_3"
+                    src="/Images/مانیتور/01 (1).jpeg"
+                    alt=""
+                  />
+                </a>
+              </td>
+              <td>20</td>
+            </tr>
+            <tr>
+              <td>مانیتور 2</td>
+              <td>8.000.000 تومان</td>
+              <td></td>
+              <td>10</td>
+            </tr>
+            <tr>
+              <td>مانیتور 3</td>
+              <td>8.000.000 تومان</td>
+              <td></td>
+              <td>20</td>
+            </tr>
+            <tr>
+              <td>مانیتور 4</td>
+              <td>15.000.000 تومان</td>
+              <td></td>
+              <td>10</td>
+            </tr>
+          </tbody>
+          <tfoot>
+            <tr>
+              <td colspan="3">جمع کل</td>
+              <td>1</td>
+            </tr>
+          </tfoot>
+        </table>
+        <div
+          id="#product1"
+          class="productModal d_flex align_items_center justify_content_center top_0 p_absolute w_100 h_100 left_0 background_blur_black"
+        >
+          <img
+            class="w_100 -50 drop_shadow"
+            src="/Images/مانیتور/01 (1).jpeg"
+            alt=""
+          />
+          <a class="top_0 left_0 p_absolute close_btn m_2" href="#">❌</a>
+        </div>
+      </main>
+    </section>
   </body>
 </html>

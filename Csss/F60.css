@@ -39,8 +39,8 @@ tr:active {
   filter: drop-shadow(0 0 3px black);
 }
 .background_blur_black {
-  background-color: black;
-  backdrop-filter: blur(2px);
+  background-color: #33333390;
+  backdrop-filter: blur(0.2rem);
 }
 .close_btn {
   width: 2rem;
