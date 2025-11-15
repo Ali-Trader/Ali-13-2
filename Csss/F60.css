@@ -50,6 +50,14 @@ tr:active {
   border-radius: 100%;
   background-color: black;
 }
+.productMode1{
+  opacity: 0;
+  visibility: hidden;
+}
+.productMode:target{
+opacity: 1;
+visibility: visible;
+}
 .bg_green {
   background-color: green;
 }
@@ -95,4 +103,18 @@ tr:active {
 }
 .justify_content_center {
   justify-content: center;
+}
+@media (max-width:600px) {
+  table,
+  thead,
+  tbody,
+  tfoot,
+  th,
+  td,
+  tr{
+    display: block;
+  }
+  .border-1{
+    border: 1px solid #ff0000;
+  }
 }
