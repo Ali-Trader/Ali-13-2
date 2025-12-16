@@ -60,7 +60,6 @@
 //   alert("خردسالی");
 // }
 
-
 //
 
 // var weight = prompt("سن خود را وارد کنید:");
@@ -75,3 +74,51 @@
 // } else {
 //   alert("چاقی مفرط");
 // }
+
+//
+
+// var x = prompt("inter x");
+// var a = Number(x);
+// var y = prompt("inter y");
+// var b = Number(y);
+// var z = prompt("inter z");
+// var c = Number(z);
+
+// if (a < b + c && b < a + c && c < a + b) {
+//   alert("مثلث");
+// }
+// if (a <= 0 || b <= 0 || c <= 0) {
+//   alert("اعداد باید بزرگتر از صفر باشند");
+// } else {
+//   alert("دوباره سعی کن");
+// }
+
+//
+
+// var myName = prompt("نام را وارد کنید:");
+
+// if (myName === null) {
+//   alert("چیزی وارد نکردی");
+// } else {
+//   myName = myName.trim();
+
+//   switch (myName) {
+//     case "علی":
+//       alert("علی بزرگتر از همه است.");
+//       break;
+//     case "سعید":
+//       alert("سعید دومیه.");
+//       break;
+//     case "رضا":
+//       alert("رضا سومیه.");
+//       break;
+//     case "نیما":
+//       alert("ته تقاریه.");
+//       break;
+//     default:
+//       alert("اسمش نبود");
+//   }
+// }
+
+// 
+
