@@ -138,15 +138,35 @@
 
 // 120
 
-var x = 0;
-var y = 0;
+// var x = 0;
+// var y = 0;
 
-while (x < 10) {
-  while (y < 10 - x) {
-    document.write(" * ");
-    y++;
-  }
-  y=0;
-  document.write("<br>");
-  x++;
-}
+// while (x < 10) {
+//   while (y < 10 - x) {
+//     document.write(" * ");
+//     y++;
+//   }
+//   y=0;
+//   document.write("<br>");
+//   x++;
+// }
+
+//
+
+// var x=1;
+// while(x<=7){
+
+//     var y =1;
+//     while(y<=x){
+
+//         document.write(" * ");
+//         y++;
+//     }
+    
+//     document.write("<br>");
+//     x++;
+// }
+
+// 
+
+
