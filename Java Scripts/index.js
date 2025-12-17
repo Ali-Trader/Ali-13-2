@@ -120,5 +120,33 @@
 //   }
 // }
 
-// 
+//
 
+// var myNumber=Math.round(4.50);
+// alert(myNumber)
+
+//
+
+// for (x = 1; x <= 10; x++) {
+//   for (y = 1; y <= 10; y++) {
+//     document.write("<div>");
+//     document.write(x * y);
+//     document.write("</div>");
+//   }
+//   document.write("<br/>");
+// }
+
+// 120
+
+var x = 0;
+var y = 0;
+
+while (x < 10) {
+  while (y < 10 - x) {
+    document.write(" * ");
+    y++;
+  }
+  y=0;
+  document.write("<br>");
+  x++;
+}
