@@ -162,10 +162,94 @@
 //         document.write(" * ");
 //         y++;
 //     }
-    
+
 //     document.write("<br>");
 //     x++;
 // }
+
+//
+// 123
+
+// var userName = [
+//   "ali",
+//   "mmd",
+//   "sara",
+//   "fatemeh",
+//   "saeid",
+//   "reza",
+//   "nima",
+//   "zahra",
+//   "marzi",
+// ];
+// var userFamily = [
+//   "ahmadi",
+//   "mokhtari",
+//   "barati",
+//   "goli",
+//   "ahmadi",
+//   "ahmadi",
+//   "ahmadi",
+//   "zahedi",
+//   "goli",
+// ];
+// document.write("<table border='1' width='300'>");
+// document.write("<tr><th>master</th><th>name</th><th>family</th></tr>");
+// for (i = 0; i < userName.length; i++) {
+//   document.write(
+//     "<tr>    <td>" +
+//       (1 + i) +
+//       "</td>   <td>" +
+//       userName[i] +
+//       "</td>      <td>" +
+//       userFamily[i] +
+//       "</td>           </tr>"
+//   );
+// }
+// document.write("</table>");
+
+//
+
+// 123 دوباره
+
+// var firstName = [
+//   "hosien",
+//   "marziyeh",
+//   "ali",
+//   "fatemeh",
+//   "saeid",
+//   "zahra",
+//   "reza",
+//   "marzi",
+//   "nima",
+// ];
+// var lastName = [
+//   "ahmadi",
+//   "mohajeri",
+//   "ahmadi",
+//   "goli",
+//   "ahmadi",
+//   "zahedi",
+//   "ahmadi",
+//   "goli",
+//   "ahmadi",
+// ];
+// document.write("<table border='1' width='300' >");
+// document.write(
+//   "<tr> <th>number</th> <th>firstName</th> <th>lastName</th> </tr>"
+// );
+// for (i = 0; i < firstName.length; i++) {
+//   document.write(
+//     " <tr>  <td> " +
+//       (1 + i) +
+//       " </td>   <td> " +
+//       firstName[i] +
+//       " </td>   <td> " +
+//       lastName[i] +
+//       " </td>         </tr>   "
+//   );
+// }
+// document.write("</table>");
+
 
 // 
 

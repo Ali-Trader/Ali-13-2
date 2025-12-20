@@ -1,9 +1,5 @@
-
 /* استایل مربوط به جدول ضربه */
 /* خط 130 تا 137 js */
-
-
-
 
 /* div{
     display: inline-block;
@@ -15,7 +11,48 @@
     margin: 2px;
 }  */
 
-
 /*  */
+
+/* 123 */
+
+/* table {
+  text-align: center;
+  border-collapse: collapse;
+  margin-left:  50px;
+}
+
+th,
+td {
+  padding: 5px;
+}
+th {
+  background-color: blue;
+  color: snow;
+}
+tr:nth-child(even) {
+  background: #ccc;
+} */
+
+/* 123 دوباره تمرین بیشتر */
+
+
+
+/* table {
+  text-align: center;
+  border-collapse: collapse;
+}
+th,
+tr {
+  padding: 5px;
+}
+th {
+  background-color: green;
+  color: blue;
+}
+tr:nth-child(odd) {
+  background: red;
+} */
+
+/* 123 دوباره تمرین بیشتر */
 
 
