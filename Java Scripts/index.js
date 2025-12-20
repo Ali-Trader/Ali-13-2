@@ -250,7 +250,49 @@
 // }
 // document.write("</table>");
 
+//
+
+// 124
+
+// var showFullName=[["ali","ahmadi","39"],["fatemeh","goli","38"]];
+// document.write(showFullName[1][1]);
+
+//
+
+// var myList=[9,4,8,1,44,71,54,7,2];
+// var a=myList.sort(function(b,c){return b-c});
+// document.write(a);
+
+//
+
+// var myList = [];
+// var userNumber = 0;
+
+// while (userNumber != -1) {
+//   userNumber = Number(prompt("inter number"));
+//   if (userNumber != -1) myList.push(userNumber);
+// }
+// var a = myList.sort(function (b, c) {
+//   return b - c;
+// });
+
+// document.write(a);
+
+//
+
+// var myList = [];
+// var userName = 0;
+
+// while (userName != "ok") {
+//   userName = prompt("inter name");
+//   if (userName !="ali") {
+//     myList.push(userName);
+//   }
+// }
+// var mysort = myList.sort();
+// document.write(mysort);
 
 // 
 
 
+// 128 monde
