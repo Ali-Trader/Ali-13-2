@@ -292,9 +292,11 @@
 // var mysort = myList.sort();
 // document.write(mysort);
 
-// 
+// تا 135 دیدم
 
 
-// 134 مونده
+
+
+
 
 
