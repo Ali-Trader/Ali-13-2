@@ -63,12 +63,55 @@
 //   }
 // }
 
-// 
+//
+
+//
+
+// function nam() {
+//     alert("salam ali");
+// }
+
+// nam();
+
+//
+
+// var yourName = prompt("please enter your name");
+// var age = prompt("please enter your age");
+// var bool = confirm("enter ok or cancel");
+
+// function myName(a, b, c) {
+//   if (c === true) {
+//     alert(`my name is ${a} and my age is ${b} years old`);
+//   } else {
+//     alert("error............!");
+//   }
+// }
+
+// myName(yourName, age, bool);
+
+
+// chatGPT
+
+
+
+// var yourName = prompt("please enter your name:");
+// var age = Number(prompt("please enter your age:"));
+// var bool = confirm("enter ok or cancel:");
+
+// function myName(a, b, c) {
+//   if (c === true) {
+//     if (b >= 18) {
+//       alert(`welcome ${a}, you are adult`);
+//     } else {
+//       alert(`sorry ${a}, you are under 18 years old`);
+//     }
+//   } else {
+//     alert("operation canceled");
+//   }
+// }
+
+// myName(yourName, age, bool);
+
 
 // 
 
-function nam() {
-    alert("salam ali");
-}
-
-nam();
