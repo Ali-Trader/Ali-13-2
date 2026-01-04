@@ -89,10 +89,7 @@
 
 // myName(yourName, age, bool);
 
-
 // chatGPT
-
-
 
 // var yourName = prompt("please enter your name:");
 // var age = Number(prompt("please enter your age:"));
@@ -112,6 +109,31 @@
 
 // myName(yourName, age, bool);
 
+//
 
-// 
+var num1 = Numberprompt("enter number1 :");
 
+var sumstring = "+";
+var mintring = "-";
+var mulstring = "*";
+var divstring = "/";
+
+var operator = prompt(`please type operator :
+
+${sumstring}
+${mintring}
+${mulstring}
+${divstring}
+
+`);
+
+var num2 = Numberprompt("enter number2 :");
+
+function result(a) {
+  return `your answer is ${a}`;
+
+  if (operator === sumstring) {
+    alert(result(num1 + num2));
+    
+  }
+}
