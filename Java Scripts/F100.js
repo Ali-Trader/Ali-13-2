@@ -111,29 +111,95 @@
 
 //
 
-var num1 = Numberprompt("enter number1 :");
+// var num1 = Number(prompt("enter number1 :"));
 
-var sumstring = "+";
-var mintring = "-";
-var mulstring = "*";
-var divstring = "/";
+// var sumstring = "+";
+// var mintring = "-";
+// var mulstring = "*";
+// var divstring = "/";
 
-var operator = prompt(`please type operator :
+// var operator = prompt(`please type operator :
 
-${sumstring}
-${mintring}
-${mulstring}
-${divstring}
+// ${sumstring}
+// ${mintring}
+// ${mulstring}
+// ${divstring}
 
-`);
+// `);
 
-var num2 = Numberprompt("enter number2 :");
+// var num2 = Number(prompt("enter number2 :"));
 
-function result(a) {
-  return `your answer is ${a}`;
+// function result(a) {
+//   return `your answer is ${a}`;
+//   if (operator == sumstring) {
+//     alert(result(num1 + num2));
+//   } else if (operator == mintring) {
+//     alert(result(num1 - num2)); // برای تفریق
+//   } else if (operator == mulstring) {
+//     alert(result(num1 * num2)); // برای ضرب
+//   } else if (operator == divstring) {
+//     if (num2 !== 0) {
+//       // چک کردن تقسیم بر صفر
+//       alert(result(num1 / num2)); // برای تقسیم
+//     } else {
+//       alert("Cannot divide by zero!"); // جلوگیری از تقسیم بر صفر
+//     }
+//   } else {
+//     alert("your tyoe is wrong...!"); // اگر اپراتور اشتباه وارد بشه
+//   }
+// }
 
-  if (operator === sumstring) {
-    alert(result(num1 + num2));
-    
-  }
-}
+// var num1 = Number(prompt("Enter number 1:")); // اصلاح به Number(prompt(...))
+
+// var sumstring = "+";
+// var minstring = "-";
+// var mulstring = "*";
+// var divstring = "/";
+
+// var operator = prompt(`Please type operator :
+
+// ${sumstring}
+// ${minstring}
+// ${mulstring}
+// ${divstring}
+// `);
+
+// var num2 = Number(prompt("Enter number 2:")); // اصلاح به Number(prompt(...))
+
+// function result(a) {
+//   return `Your answer is ${a}`;
+// }
+
+// // حالا عملیات مختلف رو بررسی می‌کنیم:
+// if (operator == sumstring) {
+//   alert(result(num1 + num2)); // برای جمع
+// } else if (operator == minstring) {
+//   alert(result(num1 - num2)); // برای تفریق
+// } else if (operator == mulstring) {
+//   alert(result(num1 * num2)); // برای ضرب
+// } else if (operator == divstring) {
+//   if (num2 !== 0) {
+//     // چک کردن تقسیم بر صفر
+//     alert(result(num1 / num2)); // برای تقسیم
+//   } else {
+//     alert("Cannot divide by zero!"); // جلوگیری از تقسیم بر صفر
+//   }
+// } else {
+//   alert("Your type is wrong...!"); // اگر اپراتور اشتباه وارد بشه
+// }
+
+
+
+
+
+
+
+
+
+
+// 
+
+
+
+113
+
