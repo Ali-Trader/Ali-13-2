@@ -188,18 +188,23 @@
 //   alert("Your type is wrong...!"); // اگر اپراتور اشتباه وارد بشه
 // }
 
+//
 
+// var Browser =prompt("inter your Browser");
 
-
-
-
-
-
-
-
-// 
-
-
-
-113
+// switch (Browser) {
+//   case "chrome":
+//     alert("okey");
+//     break;
+//   case "edge":
+//   case "firfox":
+//   case "safari":
+//   case "opera":
+//     alert("okey we support too");
+//     break;
+  
+//   default:
+//     alert("surry mwby soooo");
+//     break;
+// }
 
