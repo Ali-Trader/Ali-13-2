@@ -1,0 +1,45 @@
+body{
+
+  display: grid;
+  width: 100dvh;
+}
+.header{
+
+  background-color: rgb(147, 147, 223);
+  display: grid;
+  grid-row: 1;
+  grid-column: 1;
+
+}
+
+.sidbar{
+  background-color: rgb(62, 62, 85);
+
+   display: grid;
+   grid-template-rows: 1;
+  grid-row: 1;
+  grid-column: 1;
+}
+
+.main{
+
+  background-color: rgb(219, 167, 25);
+
+     display: grid;
+   grid-template-rows: 1;
+  grid-row: 1;
+  grid-column: 1;
+}
+
+.footer{
+  background-color: coral;
+}
+.item1{
+background-color: dodgerblue;
+}
+.item2{
+background-color: rgb(50, 207, 58);
+}
+.item3{
+background-color: rgb(211, 42, 42);
+}
