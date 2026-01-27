@@ -1,45 +1,64 @@
-body{
-
+body {
   display: grid;
-  width: 100dvh;
 }
-.header{
 
-  background-color: rgb(147, 147, 223);
+.face {
   display: grid;
-  grid-row: 1;
-  grid-column: 1;
-
+    background-color: rgb(99, 99, 219);
+  text-align: center;
+  justify-content: center;
+}
+.scence {
+  width: 200px;
+  height: 200px;
+  perspective: 600px;
+  margin: 100px auto;
 }
 
-.sidbar{
-  background-color: rgb(62, 62, 85);
-
-   display: grid;
-   grid-template-rows: 1;
-  grid-row: 1;
-  grid-column: 1;
+.cube {
+  width: 100px;
+  height: 100px;
+  position: relative;
+  transform-style: preserve-3d;
+  transform: rotateX(-30deg) rotateY(-30deg);
+  animation: rotateCube 10s infinite linear;
+}
+.face {
+  position: absolute;
+  width: 200px;
+  height: 200px;
+  background: rgb(123, 121, 252);
+  border: 2px solid #fff;
+  line-height: 200px;
+  text-align: center;
+  font-weight: bold;
+  font-size: 24px;
+  backface-visibility: hidden;
+}
+.Front {
+  transform: translateZ(100px);
+}
+.Back {
+  transform: rotateY(180deg) translateZ(100px);
+}
+.Right {
+  transform: rotateY(90deg) translateZ(100px);
+}
+.Left {
+  transform: rotateY(-90deg) translateZ(100px);
+}
+.Top {
+  transform: rotateX(90deg) translateZ(100px);
+}
+.Bottom {
+  transform: rotateX(-90deg) translateZ(100px);
 }
 
-.main{
-
-  background-color: rgb(219, 167, 25);
-
-     display: grid;
-   grid-template-rows: 1;
-  grid-row: 1;
-  grid-column: 1;
-}
-
-.footer{
-  background-color: coral;
-}
-.item1{
-background-color: dodgerblue;
-}
-.item2{
-background-color: rgb(50, 207, 58);
-}
-.item3{
-background-color: rgb(211, 42, 42);
+@keyframes rotateCube {
+  from {
+    transform: rotateX(0deg) rotateY(0deg);
+  }
+  to {
+    transform: rotateX(360deg) rotateY(360deg);
+  }
 }
