@@ -1,0 +1,28 @@
+.item1 {
+    background-color: rgb(212, 131, 131);
+    width: 100px;
+    height: 100px;
+    display: grid;
+    place-items: center; /* متن وسط */
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border: 1px solid rgb(92, 41, 187);
+    border-radius: 20px;
+    color: rgb(32, 219, 32);
+    animation: item1 10s 4s infinite;
+}
+
+.item1:hover {
+    background-color: rgb(92, 41, 187);
+    color: rgb(212, 131, 131);
+    transform: translate(-50%, -50%) scale(1.5);
+    transition: all 0.5s;
+}
+
+@keyframes item1 {
+    0%   { top: 40%; }
+    50%  { top: 60%; }
+    100% { top: 40%; }
+}
